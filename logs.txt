@@ -1,0 +1,68 @@
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+2db29710123e: Pull complete
+Digest: sha256:4e83453afed1b4fa1a3500525091dbfca6ce1e66903fd4c01ff015dbcb1ba33e
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+Unable to find image 'nginx:stable' locally
+stable: Pulling from library/nginx
+26c5c85e47da: Pull complete
+7e385399569d: Pull complete
+38454a0c2b53: Pull complete
+70163c4a088e: Pull complete
+283e8681fce8: Pull complete
+8459642afffc: Pull complete
+Digest: sha256:22cb51c7e9e05724dd1c46789e15cdb78617d1904c7c78a2829c8550c6b46e40
+Status: Downloaded newer image for nginx:stable
+8a8dc64e6e4e775879a42e09b88396877a66567cb88f74fc69f918f98cd9d5d8
+
+CONTAINER ID   IMAGE          COMMAND                  CREATED          STATUS          PORTS                     NAMES
+8a8dc64e6e4e   nginx:stable   "/docker-entrypoint.…"   20 seconds ago   Up 18 seconds   127.0.0.1:28080->80/tcp   
+rbm-dkr-01
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+html { color-scheme: light dark; }
+body { width: 35em; margin: 0 auto;
+font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+rbm-dkr-01
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+curl: (7) Failed to connect to 127.0.0.1 port 28080 after 9 ms: Couldn't connect to server
